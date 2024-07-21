@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 from airflow import DAG
-from airflow.operators.python_operator import PythonOperator
-from airflow.sensors.time_sensor import TimeDeltaSensor
+from airflow.operators.python import PythonOperator
+from airflow.sensors.time_delta import TimeDeltaSensor
 
 def print_hello():
     return 'Hello from Airflow!'
@@ -16,8 +16,8 @@ default_args = {
     'email_on_failure': False,
     'email_on_retry': False,
     'retries': 1,
-    'retry_delay': datetime.time(hours=9,minutes=5)
-}]
+    'retry_delay': timedelta(hours=9, minutes=5)
+}
 
 dag = DAG('example_dag', default_args=default_args, description='A simple example DAG', schedule_interval='0 9 * * *', catchup=True)
 

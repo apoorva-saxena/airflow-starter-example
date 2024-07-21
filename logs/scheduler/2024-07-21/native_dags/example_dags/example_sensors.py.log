@@ -1,7 +1,21 @@
-[2024-07-21T20:27:41.641+0100] {processor.py:157} INFO - Started process (PID=76755) to work on /Users/apoorvasaxena/.pyenv/versions/airflow-venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
-[2024-07-21T20:27:41.643+0100] {processor.py:829} INFO - Processing file /Users/apoorvasaxena/.pyenv/versions/airflow-venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
-[2024-07-21T20:27:41.644+0100] {logging_mixin.py:151} INFO - [2024-07-21T20:27:41.643+0100] {dagbag.py:539} INFO - Filling up the DagBag from /Users/apoorvasaxena/.pyenv/versions/airflow-venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
-[2024-07-21T20:27:41.664+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/apoorvasaxena/.pyenv/versions/airflow-venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
-[2024-07-21T20:27:41.746+0100] {logging_mixin.py:151} INFO - [2024-07-21T20:27:41.746+0100] {dag.py:2915} INFO - Sync 1 DAGs
-[2024-07-21T20:27:41.750+0100] {logging_mixin.py:151} INFO - [2024-07-21T20:27:41.750+0100] {dag.py:3696} INFO - Setting next_dagrun for example_sensors to None, run_after=None
-[2024-07-21T20:27:41.756+0100] {processor.py:179} INFO - Processing /Users/apoorvasaxena/.pyenv/versions/airflow-venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.116 seconds
+[2024-07-21T20:49:56.287+0100] {processor.py:157} INFO - Started process (PID=82513) to work on /Users/apoorvasaxena/.pyenv/versions/airflow-venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-07-21T20:49:56.289+0100] {processor.py:829} INFO - Processing file /Users/apoorvasaxena/.pyenv/versions/airflow-venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-07-21T20:49:56.289+0100] {logging_mixin.py:151} INFO - [2024-07-21T20:49:56.289+0100] {dagbag.py:539} INFO - Filling up the DagBag from /Users/apoorvasaxena/.pyenv/versions/airflow-venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-07-21T20:49:56.308+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/apoorvasaxena/.pyenv/versions/airflow-venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-07-21T20:49:56.383+0100] {logging_mixin.py:151} INFO - [2024-07-21T20:49:56.383+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-07-21T20:49:56.386+0100] {logging_mixin.py:151} INFO - [2024-07-21T20:49:56.386+0100] {dag.py:3696} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-07-21T20:49:56.393+0100] {processor.py:179} INFO - Processing /Users/apoorvasaxena/.pyenv/versions/airflow-venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.106 seconds
+[2024-07-21T20:51:03.004+0100] {processor.py:157} INFO - Started process (PID=82643) to work on /Users/apoorvasaxena/.pyenv/versions/airflow-venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-07-21T20:51:03.007+0100] {processor.py:829} INFO - Processing file /Users/apoorvasaxena/.pyenv/versions/airflow-venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-07-21T20:51:03.007+0100] {logging_mixin.py:151} INFO - [2024-07-21T20:51:03.007+0100] {dagbag.py:539} INFO - Filling up the DagBag from /Users/apoorvasaxena/.pyenv/versions/airflow-venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-07-21T20:51:03.027+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/apoorvasaxena/.pyenv/versions/airflow-venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-07-21T20:51:03.103+0100] {logging_mixin.py:151} INFO - [2024-07-21T20:51:03.102+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-07-21T20:51:03.106+0100] {logging_mixin.py:151} INFO - [2024-07-21T20:51:03.106+0100] {dag.py:3696} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-07-21T20:51:03.112+0100] {processor.py:179} INFO - Processing /Users/apoorvasaxena/.pyenv/versions/airflow-venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.109 seconds
+[2024-07-21T20:52:17.052+0100] {processor.py:157} INFO - Started process (PID=82866) to work on /Users/apoorvasaxena/.pyenv/versions/airflow-venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-07-21T20:52:17.055+0100] {processor.py:829} INFO - Processing file /Users/apoorvasaxena/.pyenv/versions/airflow-venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-07-21T20:52:17.055+0100] {logging_mixin.py:151} INFO - [2024-07-21T20:52:17.055+0100] {dagbag.py:539} INFO - Filling up the DagBag from /Users/apoorvasaxena/.pyenv/versions/airflow-venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-07-21T20:52:17.074+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/apoorvasaxena/.pyenv/versions/airflow-venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-07-21T20:52:17.149+0100] {logging_mixin.py:151} INFO - [2024-07-21T20:52:17.148+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-07-21T20:52:17.152+0100] {logging_mixin.py:151} INFO - [2024-07-21T20:52:17.152+0100] {dag.py:3696} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-07-21T20:52:17.158+0100] {processor.py:179} INFO - Processing /Users/apoorvasaxena/.pyenv/versions/airflow-venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.106 seconds
